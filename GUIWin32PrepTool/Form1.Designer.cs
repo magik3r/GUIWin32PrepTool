@@ -52,7 +52,6 @@
             this.textBox_SrcPath.Name = "textBox_SrcPath";
             this.textBox_SrcPath.Size = new System.Drawing.Size(344, 24);
             this.textBox_SrcPath.TabIndex = 0;
-            this.textBox_SrcPath.Text = "<Source Directory>";
             // 
             // button_SrcPath
             // 
@@ -101,7 +100,6 @@
             this.textBox_SetupFile.Name = "textBox_SetupFile";
             this.textBox_SetupFile.Size = new System.Drawing.Size(344, 24);
             this.textBox_SetupFile.TabIndex = 3;
-            this.textBox_SetupFile.Text = "<Setup File>";
             // 
             // label_Output
             // 
@@ -130,7 +128,6 @@
             this.textBox_Output.Name = "textBox_Output";
             this.textBox_Output.Size = new System.Drawing.Size(344, 24);
             this.textBox_Output.TabIndex = 6;
-            this.textBox_Output.Text = "<Output Directory>";
             // 
             // richTextBox_Console
             // 
