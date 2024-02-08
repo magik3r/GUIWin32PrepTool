@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using System.Security.Principal;
 using System.IO;
 
-namespace GUIWinpreptool
+namespace GUIWin32PrepTool
 {
     internal static class Program
     {

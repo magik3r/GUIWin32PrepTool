@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
-namespace GUIWinpreptool
+namespace GUIWin32PrepTool
 {
     public class CMD
     {

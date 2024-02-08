@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIWin32PrepTool", "GUIWinpreptool\GUIWin32PrepTool.csproj", "{F36F6F21-6F58-4E32-A7D9-A4C1544D602F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIWin32PrepTool", "GUIWin32PrepTool\GUIWin32PrepTool.csproj", "{F36F6F21-6F58-4E32-A7D9-A4C1544D602F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

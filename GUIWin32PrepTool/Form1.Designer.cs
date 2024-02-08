@@ -1,4 +1,4 @@
-﻿namespace GUIWinpreptool
+﻿namespace GUIWin32PrepTool
 {
     partial class Form1
     {
