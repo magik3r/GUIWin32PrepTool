@@ -47,11 +47,9 @@
             // 
             // textBox_SrcPath
             // 
-            this.textBox_SrcPath.Enabled = false;
             this.textBox_SrcPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_SrcPath.Location = new System.Drawing.Point(144, 32);
             this.textBox_SrcPath.Name = "textBox_SrcPath";
-            this.textBox_SrcPath.ReadOnly = true;
             this.textBox_SrcPath.Size = new System.Drawing.Size(344, 24);
             this.textBox_SrcPath.TabIndex = 0;
             this.textBox_SrcPath.Text = "<Source Directory>";
@@ -98,11 +96,9 @@
             // 
             // textBox_SetupFile
             // 
-            this.textBox_SetupFile.Enabled = false;
             this.textBox_SetupFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_SetupFile.Location = new System.Drawing.Point(144, 89);
             this.textBox_SetupFile.Name = "textBox_SetupFile";
-            this.textBox_SetupFile.ReadOnly = true;
             this.textBox_SetupFile.Size = new System.Drawing.Size(344, 24);
             this.textBox_SetupFile.TabIndex = 3;
             this.textBox_SetupFile.Text = "<Setup File>";
@@ -129,11 +125,9 @@
             // 
             // textBox_Output
             // 
-            this.textBox_Output.Enabled = false;
             this.textBox_Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Output.Location = new System.Drawing.Point(144, 150);
             this.textBox_Output.Name = "textBox_Output";
-            this.textBox_Output.ReadOnly = true;
             this.textBox_Output.Size = new System.Drawing.Size(344, 24);
             this.textBox_Output.TabIndex = 6;
             this.textBox_Output.Text = "<Output Directory>";
@@ -150,11 +144,11 @@
             // button_Go
             // 
             this.button_Go.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Go.Location = new System.Drawing.Point(460, 193);
+            this.button_Go.Location = new System.Drawing.Point(460, 190);
             this.button_Go.Name = "button_Go";
             this.button_Go.Size = new System.Drawing.Size(122, 36);
             this.button_Go.TabIndex = 10;
-            this.button_Go.Text = "GO";
+            this.button_Go.Text = "Create";
             this.button_Go.UseVisualStyleBackColor = true;
             this.button_Go.Click += new System.EventHandler(this.button_Go_Click);
             // 
@@ -187,7 +181,7 @@
             this.Controls.Add(this.textBox_SrcPath);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "GUIWinpreptool";
+            this.Text = "GUIWin32PrepTool";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement; 
 
 namespace GUIWin32PrepTool
 {
@@ -35,7 +27,7 @@ namespace GUIWin32PrepTool
             {
                 textBox_SrcPath.Text = Path.GetDirectoryName(ofd.FileName);
             }
-            
+
         }
 
         private void button_SetupFile_Click(object sender, EventArgs e)
@@ -49,6 +41,7 @@ namespace GUIWin32PrepTool
 
         private void button_Output_Click(object sender, EventArgs e)
         {
+            ofd.FileName = "Folder";
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 textBox_Output.Text = Path.GetDirectoryName(ofd.FileName);
