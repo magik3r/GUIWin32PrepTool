@@ -22,7 +22,7 @@ namespace GUIWin32PrepTool
 
         private void button_SrcPath_Click(object sender, EventArgs e)
         {
-
+            ofd.FileName = "Folder";
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 textBox_SrcPath.Text = Path.GetDirectoryName(ofd.FileName);
