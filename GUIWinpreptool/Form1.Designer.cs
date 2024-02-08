@@ -43,7 +43,6 @@
             this.richTextBox_Console = new System.Windows.Forms.RichTextBox();
             this.button_Go = new System.Windows.Forms.Button();
             this.label_CommandLine = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox_SrcPath
@@ -169,21 +168,11 @@
             this.label_CommandLine.TabIndex = 11;
             this.label_CommandLine.Text = "Command used in CMD:";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(471, 320);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Made by Noel Borgstedt ";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 342);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label_CommandLine);
             this.Controls.Add(this.button_Go);
             this.Controls.Add(this.richTextBox_Console);
@@ -220,7 +209,6 @@
         private System.Windows.Forms.RichTextBox richTextBox_Console;
         private System.Windows.Forms.Button button_Go;
         private System.Windows.Forms.Label label_CommandLine;
-        private System.Windows.Forms.Label label1;
     }
 }
 
