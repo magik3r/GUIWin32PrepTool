@@ -26,9 +26,18 @@ namespace GUIWin32PrepTool
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 textBox_SrcPath.Text = Path.GetDirectoryName(ofd.FileName);
+                string[] files = Directory.GetFiles(textBox_SrcPath.Text, "*.exe");
+                if (files.Length == 0)
+                {
+                    files = Directory.GetFiles(textBox_SrcPath.Text, "*.msi");
+                }
+                if (files.Length > 0)
+                {
+                    textBox_SetupFile.Text = files[0];
+                }
             }
-
         }
+
 
         private void button_SetupFile_Click(object sender, EventArgs e)
         {
