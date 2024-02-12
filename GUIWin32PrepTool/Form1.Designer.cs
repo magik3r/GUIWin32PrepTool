@@ -47,15 +47,16 @@
             // 
             // textBox_SrcPath
             // 
-            this.textBox_SrcPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_SrcPath.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_SrcPath.Location = new System.Drawing.Point(144, 32);
             this.textBox_SrcPath.Name = "textBox_SrcPath";
-            this.textBox_SrcPath.Size = new System.Drawing.Size(344, 24);
+            this.textBox_SrcPath.Size = new System.Drawing.Size(344, 27);
             this.textBox_SrcPath.TabIndex = 0;
             // 
             // button_SrcPath
             // 
-            this.button_SrcPath.Location = new System.Drawing.Point(503, 30);
+            this.button_SrcPath.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SrcPath.Location = new System.Drawing.Point(503, 33);
             this.button_SrcPath.Name = "button_SrcPath";
             this.button_SrcPath.Size = new System.Drawing.Size(79, 26);
             this.button_SrcPath.TabIndex = 1;
@@ -65,27 +66,28 @@
             // 
             // label_SrcPath
             // 
-            this.label_SrcPath.AutoSize = true;
-            this.label_SrcPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_SrcPath.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SrcPath.Location = new System.Drawing.Point(23, 35);
             this.label_SrcPath.Name = "label_SrcPath";
             this.label_SrcPath.Size = new System.Drawing.Size(115, 18);
             this.label_SrcPath.TabIndex = 2;
             this.label_SrcPath.Text = "Source folder:";
+            this.label_SrcPath.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label_SetupFile
             // 
-            this.label_SetupFile.AutoSize = true;
-            this.label_SetupFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_SetupFile.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_SetupFile.Location = new System.Drawing.Point(23, 92);
             this.label_SetupFile.Name = "label_SetupFile";
-            this.label_SetupFile.Size = new System.Drawing.Size(83, 18);
+            this.label_SetupFile.Size = new System.Drawing.Size(115, 18);
             this.label_SetupFile.TabIndex = 5;
             this.label_SetupFile.Text = "Setup file:";
+            this.label_SetupFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button_SetupFile
             // 
-            this.button_SetupFile.Location = new System.Drawing.Point(503, 87);
+            this.button_SetupFile.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_SetupFile.Location = new System.Drawing.Point(500, 90);
             this.button_SetupFile.Name = "button_SetupFile";
             this.button_SetupFile.Size = new System.Drawing.Size(79, 26);
             this.button_SetupFile.TabIndex = 4;
@@ -95,25 +97,26 @@
             // 
             // textBox_SetupFile
             // 
-            this.textBox_SetupFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_SetupFile.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_SetupFile.Location = new System.Drawing.Point(144, 89);
             this.textBox_SetupFile.Name = "textBox_SetupFile";
-            this.textBox_SetupFile.Size = new System.Drawing.Size(344, 24);
+            this.textBox_SetupFile.Size = new System.Drawing.Size(344, 27);
             this.textBox_SetupFile.TabIndex = 3;
             // 
             // label_Output
             // 
-            this.label_Output.AutoSize = true;
-            this.label_Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Output.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Output.Location = new System.Drawing.Point(23, 153);
             this.label_Output.Name = "label_Output";
-            this.label_Output.Size = new System.Drawing.Size(111, 18);
+            this.label_Output.Size = new System.Drawing.Size(115, 18);
             this.label_Output.TabIndex = 8;
             this.label_Output.Text = "Output folder:";
+            this.label_Output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button_Output
             // 
-            this.button_Output.Location = new System.Drawing.Point(503, 148);
+            this.button_Output.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Output.Location = new System.Drawing.Point(503, 151);
             this.button_Output.Name = "button_Output";
             this.button_Output.Size = new System.Drawing.Size(79, 26);
             this.button_Output.TabIndex = 7;
@@ -123,14 +126,15 @@
             // 
             // textBox_Output
             // 
-            this.textBox_Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Output.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Output.Location = new System.Drawing.Point(144, 150);
             this.textBox_Output.Name = "textBox_Output";
-            this.textBox_Output.Size = new System.Drawing.Size(344, 24);
+            this.textBox_Output.Size = new System.Drawing.Size(344, 27);
             this.textBox_Output.TabIndex = 6;
             // 
             // richTextBox_Console
             // 
+            this.richTextBox_Console.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox_Console.Location = new System.Drawing.Point(26, 235);
             this.richTextBox_Console.Name = "richTextBox_Console";
             this.richTextBox_Console.ReadOnly = true;
@@ -140,7 +144,7 @@
             // 
             // button_Go
             // 
-            this.button_Go.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Go.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_Go.Location = new System.Drawing.Point(460, 190);
             this.button_Go.Name = "button_Go";
             this.button_Go.Size = new System.Drawing.Size(122, 36);
@@ -152,10 +156,10 @@
             // label_CommandLine
             // 
             this.label_CommandLine.AutoSize = true;
-            this.label_CommandLine.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CommandLine.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_CommandLine.Location = new System.Drawing.Point(26, 216);
             this.label_CommandLine.Name = "label_CommandLine";
-            this.label_CommandLine.Size = new System.Drawing.Size(192, 18);
+            this.label_CommandLine.Size = new System.Drawing.Size(177, 20);
             this.label_CommandLine.TabIndex = 11;
             this.label_CommandLine.Text = "Command used in CMD:";
             // 
