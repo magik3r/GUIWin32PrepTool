@@ -21,6 +21,9 @@ Note that the ***IntuneWinAppUtil.exe*** must be placed in the same directory as
 *The selections are the same as the ones you would input through command-line*
 
 
+### Cool Repos:
+- [aaronparker/icons](https://github.com/aaronparker/icons) Neat collection of various app-icons that can be for the Company Portal 
+
 
 ### Planned features:
 - Include option to specify catalog folder.
