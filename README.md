@@ -29,4 +29,4 @@ Note that the ***IntuneWinAppUtil.exe*** must be placed in the same directory as
 - Include option to specify catalog folder.
 - Option to name .intunewin file differently from setup file.
 
-I will probably update this application sporadically but feel free to send suggestions.
+This is a hobby-project of mine so updates will be sporadic.
