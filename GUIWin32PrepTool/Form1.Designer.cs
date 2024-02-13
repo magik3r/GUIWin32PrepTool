@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox_SrcPath = new System.Windows.Forms.TextBox();
             this.button_SrcPath = new System.Windows.Forms.Button();
             this.fBD_SrcPath = new System.Windows.Forms.FolderBrowserDialog();
@@ -180,8 +179,8 @@
             this.Controls.Add(this.label_SrcPath);
             this.Controls.Add(this.button_SrcPath);
             this.Controls.Add(this.textBox_SrcPath);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "GUIWin32PrepTool";
             this.ResumeLayout(false);
             this.PerformLayout();
