@@ -12,8 +12,8 @@ Note that the ***IntuneWinAppUtil.exe*** must be placed in the same directory as
 
 
 ### Usage:
-- Run the application as administrator and select the correct file/folder(s)*.\
-- A shell window displaying the output of the IntuneWinAppUtil.exe will open upon creating the .intunewin file, which will be named after the ***setup file***.\
+- Run the application as administrator and select the correct file/folder(s)*
+- A shell window displaying the output of the IntuneWinAppUtil.exe will open upon creating the .intunewin file, which will be named after the ***setup file***
 - The box at the bottom displays the command used in case you need to troubleshoot.
 <br/>\*
 *The selections are the same as the ones you would input through command-line*
