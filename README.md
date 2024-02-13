@@ -20,7 +20,7 @@ Note that the ***IntuneWinAppUtil.exe*** must be placed in the same directory as
 
 
 ### Cool Repos:
-- [aaronparker/icons](https://github.com/aaronparker/icons) Neat collection of various app-icons that can be for the Company Portal 
+- [aaronparker/icons](https://github.com/aaronparker/icons) Neat collection of various app-icons that can be used for the Company Portal 
 
 
 ### Planned features:
