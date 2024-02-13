@@ -1,9 +1,7 @@
 # GUIWin32PrepTool
-<img src="icon.png" width="200" height="200">
-
 
 ### Purpose:
-This program provides a user-friendly GUI for the **Content PrepTool** to substitute using the application through command-line.
+This program provides a user-friendly GUI for the **Microsoft Win32 Content Prep Tool** to substitute using the application through command-line.
 
 
 
