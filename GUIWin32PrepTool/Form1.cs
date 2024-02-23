@@ -16,7 +16,7 @@ namespace GUIWin32PrepTool
             ofd.CheckPathExists = true;
             ofd.Title = "Select a Folder";
             ofd.FileName = "Folder";
-            ofd.InitialDirectory = @"C:\";
+            // ofd.InitialDirectory = @"C:\";
 
         }
 
