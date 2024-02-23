@@ -36,6 +36,17 @@ namespace GUIWin32PrepTool
                     textBox_SetupFile.Text = files[0];
                 }
             }
+
+            // Get the parent directory
+            var parentDirectory = Directory.GetParent(textBox_SrcPath.Text);
+
+            // Check if the parent directory is not null
+            if (parentDirectory != null)
+            {
+                // Set the text of the other textbox to the path of the parent directory
+                textBox_Output.Text = parentDirectory.FullName;
+            }
+
         }
 
 
